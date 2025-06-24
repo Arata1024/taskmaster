@@ -229,3 +229,12 @@ body.dark .task-btn:hover {
     justify-content: center;
   }
 }
+
+.btn {
+  transform: scale(1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
